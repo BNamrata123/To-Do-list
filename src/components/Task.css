@@ -1,0 +1,245 @@
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f2f2f2;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .task-item.completed span {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .task-item span {
+    cursor: pointer;
+    flex-grow: 1;
+    text-align: left;
+  }
+
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .task-item.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  .task-item {
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-item.completed {
+    text-decoration: line-through;
+    color: grey;
+  }
+  
+  .due-date {
+    margin-left: 10px;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .due-date.overdue {
+    color: rgb(11, 2, 2);
+  }
+  
+  .task-item.overdue {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+  }
+
+  .task-item {
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-item.completed {
+    text-decoration: line-through;
+    color: grey;
+  }
+  
+  .due-date {
+    margin-left: 10px;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .priority-level {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  .high-priority {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+  }
+  
+  .medium-priority {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+  }
+  
+  .low-priority {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+  }
+
+  .task-item.low {
+    border-left: 5px solid green;
+  }
+  
+  .task-item.medium {
+    border-left: 5px solid orange;
+  }
+  
+  .task-item.high {
+    border-left: 5px solid red;
+  }
+  
+  .priority {
+    font-size: 12px;
+    color: gray;
+  }
+
+  .task-item {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .task-item.completed {
+    background-color: #f4f4f4;
+  }
+  
+  .task-item.high-priority {
+    border-left: 5px solid rgb(15, 2, 2);
+  }
+  
+  .task-item.medium-priority {
+    border-left: 5px solid orange;
+  }
+  
+  .task-item.low-priority {
+    border-left: 5px solid green;
+  }
+  
+  .due-date {
+    font-size: 12px;
+    color: gray;
+    margin-left: 10px;
+  }
+  
+  .priority-level {
+    font-size: 12px;
+    color: gray;
+    margin-left: 10px;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    color:white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .task-item {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .task-item.completed {
+    background-color: #f4f4f4;
+  }
+  
+  .task-item.high-priority {
+    border-left: 5px solid rgb(26, 3, 3);
+  }
+  
+  .task-item.medium-priority {
+    border-left: 5px solid orange;
+  }
+  
+  .task-item.low-priority {
+    border-left: 5px solid green;
+  }
+  
+  .due-date {
+    font-size: 12px;
+    color: gray;
+    margin-right: 15px; /* Added right margin to give space */
+  }
+  
+  .priority-dropdown {
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 5px;
+    height: 30px; /* Match the height of the input */
+  }
+  
+  button {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  /* Fade-in + slide from bottom */
+.task-item {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideIn 0.4s ease forwards;
+  transition: all 0.4s ease;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.task-item:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transform: scale(1.02);
+}
+
+
+  
+  
+  
+  
+  
+  
